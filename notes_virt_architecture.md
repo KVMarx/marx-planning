@@ -1,14 +1,3 @@
-Porting KVM to run on the Redox kernel.
-
-Design goals:
-
-- Small code base. Xen is ~270k, we want smaller than that.
-- Reuses tried, tested, stable components
-- Works as a drop-in replacement for Xen in Qubes. See Qubes architecture discussion of Xen vs KVM.
-- Runs on Redox
-- Modular and clean
-- As little modification to the KVM codebase as possible. We want to be able to match upstream KVM in perpetuity.
-
 
 ====================
 Qubes' requirements:
@@ -279,13 +268,3 @@ Balasubramanian et al., HotOS’17
 - proof-of-concept Static information flow control (IFC)  for Rust. Rust macros transform a program into an abstract representation in which the value of each variable is simply represented by its security label. 
 - automatic checkpointing library for Rust following this observation using a Checkpointable trait (interface) and a custom implementation for Rc (Arc could be extended similarly). A compiler plugin automatically generates an implementation of the Checkpointable trait for types composed of scalar values and references to other checkpointable types.
 
-
-==========
-Redox
-
-https://redox-os.org/news/
-https://www.reddit.com/r/Redox/
-https://www.reddit.com/r/Redox/
-
-https://discourse.redox-os.org/t/redox-as-a-virtualization-platform-host-hypervisor/594
-https://www.reddit.com/r/Redox/comments/6pt2zm/how_difficult_to_port_kvm_to_redox/
