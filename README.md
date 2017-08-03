@@ -22,3 +22,17 @@ Initial project idea:
 
 * https://discourse.redox-os.org/t/redox-as-a-virtualization-platform-host-hypervisor/594
 * https://www.reddit.com/r/Redox/comments/6pt2zm/how_difficult_to_port_kvm_to_redox/
+
+## Todo
+
+* Get Redox to compile (which commit did they make the most recent ISO release from?)
+* Study KVM<->kernel interface
+* Study similar porting projects
+* Get KVM to compile on Redox (will prob involve porting lots of other things first)
+
+## Similar projects
+
+* Virtualbox port to Genode/NOVA (maintained?)
+* Joyent's port of KVM to SmartOS/Illumos/Solaris (unmaintained)
+* Port of KVM to FreeBSD (unmaintained)
+* KVM-L4 (unmaintained)
