@@ -16,7 +16,7 @@ Where to get updates on Redox:
 
 * https://redox-os.org/news/
 * https://www.reddit.com/r/Redox/
-* https://www.reddit.com/r/Redox/
+* https://discourse.redox-os.org/
 
 Initial project idea:
 
