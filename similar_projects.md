@@ -12,6 +12,8 @@ FOSDEM 2015 - Transplantation of VirtualBox to the NOVA microhypervisor.
 [Slides](https://archive.fosdem.org/2015/schedule/event/transplantation/attachments/slides/729/export/events/attachments/transplantation/slides/729/vbox_on_genode_FOSDEM2015.pdf).
 [Video](http://video.fosdem.org/2015/devroom-virtualisation/transplantation.mp4).
 
+See slides 21-23, 36.
+
 ## Port of KVM to SmartOS/Illumos/Solaris by Joyent (unmaintained)
 
 https://www.linux-kvm.org/images/7/71/2011-forum-porting-to-smartos.pdf
@@ -23,3 +25,7 @@ https://www.linux-kvm.org/images/7/71/2011-forum-porting-to-smartos.pdf
 ## KVM-L4 (unmaintained)
 
 https://www.ruhr-uni-bochum.de/integriertesysteme/emuco/files/peterschild09_vtds_virtual_machines_jailed.pdf
+
+See also (C-f "kvm-l4"):
+* https://os.inf.tu-dresden.de/papers_ps/liebergeld-diplom.pdf
+* http://www.csc.villanova.edu/~nadi/csc8580/S11/AnushaUppalapati.pdf
