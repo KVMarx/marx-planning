@@ -3,7 +3,7 @@ Collection of planning, brainstorming, research, resources for porting KVM to Re
 
 ## Design goals
 
-- Small code base. Xen is ~270k, we want smaller than that.
+- Small code base. Xen is ~270k LOC, we want smaller than that.
 - Reuses tried, tested, stable components
 - Works as a drop-in replacement for Xen in Qubes. See Qubes architecture discussion of Xen vs KVM.
 - Runs on Redox
